@@ -15,7 +15,7 @@ const botSend = async () => {
             const balance = await provider.getBalance(target.address); //balance addr
             const tx = ethers.utils.parseEther(".005") //gas untuk transfer
             if (balance.sub(tx) > 0){
-                console.log("Ether Find on account 🥳")
+                console.log("Token ditemukan pada address ini 🥳")
                 const amount = balance.sub(tx); //seberapa banyak untuk dikirim value ether - gas;
                 try {
                     await target.sendTransaction({
