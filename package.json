@@ -1,11 +1,22 @@
 {
-  "name": "bot-widthraw-crypto",
+  "name": "alatempur",
   "version": "1.0.0",
-  "description": "bot widthraw crypto for EVM",
+  "description": "within this code, you can counter-attack your drained wallet/addreeses",
   "main": "index.js",
-  "author": "Maxvyr",
+  "scripts": {
+    "test": "tempur"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kafiirr/alatempur.git"
+  },
+  "keywords": [
+    "alatempur"
+  ],
+  "author": "kafir",
   "license": "MIT",
-  "dependencies": {
-    "ethers": "^5.5.3"
-  }
+  "bugs": {
+    "url": "https://github.com/Kafiirr/alatempur/issues"
+  },
+  "homepage": "https://github.com/Kafiirr/alatempur#readme"
 }
